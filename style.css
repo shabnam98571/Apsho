@@ -1,0 +1,207 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #fff;
+      color: #333;
+    }
+
+    /* Navbar */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background: #fff;
+      box-shadow: 0 3px 5px rgba(0,0,0,0.05);
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 30px;
+      margin-right: 10px;
+    }
+
+    .logo span {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .logo span .red {
+      color: #f85a7e;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 30px;
+      font-weight: 500;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #222;
+    }
+
+    .btn-touch {
+      background: #f85a7e;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    /*Navbar END */
+
+    /* Hero Section Start*/
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 80px 50px;
+      background: #fffafc;
+    }
+
+    .hero-left {
+      max-width: 50%;
+    }
+
+    .hero-left h5 {
+      color: #f85a7e;
+      letter-spacing: 2px;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .hero-left h1 {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      color: #222;
+    }
+
+    .hero-left p {
+      font-size: 16px;
+      color: #777;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    .store-buttons {
+      display: flex;
+      gap: 20px;
+    }
+
+    .store-buttons a {
+      display: flex;
+      align-items: center;
+      padding: 12px 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      text-decoration: none;
+      color: black;
+      font-weight: 500;
+      font-size: 14px;
+    }
+
+    .store-buttons a img {
+      width: 20px;
+      margin-right: 10px;
+    }
+
+    /* Hero Right Image */
+    .hero-right img {
+      max-width: 500px;
+      width: 100%;
+    }
+
+    /*Hero Section END*/
+
+    /* Services Section 1 */
+  .benefits {
+  text-align: center;
+  padding: 60px 20px;
+}
+.benefits h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 30px 20px;
+  width: 260px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon img {
+  width: 30px;
+  height: 30px;
+}
+.pink {
+  background-color: #ffe6e6;
+}
+.blue {
+  background-color: #e6f0ff;
+}
+.yellow {
+  background-color: #fff8dc;
+}
+.card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.card p {
+  font-size: 0.9rem;
+  color: #6b7280;
+  line-height: 1.4;
+}
+.see-all-pst {
+  margin-top: 40px;
+  padding: 12px 30px;
+  border: 2px solid #ff5b5f;
+  background-color: white;
+  color: #ff5b5f;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.see-all-pst:hover {
+  background-color: #ff5b5f;
+  color: white;
+}
+.card h2:hover {
+     background-color: white;
+     color: rgb(252, 112, 112);
+    transition: color 0.3s ease;
+}
